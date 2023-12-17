@@ -83,7 +83,7 @@ public class Main {
         var totalHours = 640;
         var peopleHours = 8;
         var totalPeople = totalHours / peopleHours;
-        System.out.println("Всего работников в компании — " + totalPeople +  " человек».");
+        System.out.println("Всего работников в компании — " + totalPeople +  " человек.");
 
         //System.out.println("Всего работников в компании — " + (640 / 8) +  " человек».");
         //System.out.println(640 / 8 + 94);
@@ -91,6 +91,6 @@ public class Main {
         totalPeople = totalPeople + 94;
         totalHours = totalHours / totalPeople;
 
-        System.out.println("Если в компании работает " + totalPeople + " человек, то всего " + totalHours + " часов работы может быть поделено между сотрудниками».");
+        System.out.println("Если в компании работает " + totalPeople + " человек, то всего " + totalHours + " часов работы может быть поделено между сотрудниками.");
     }
 }
